@@ -1,0 +1,15 @@
+/Users/bricker/.rbenv/versions/2.2.0/bin/ruby -r ./siteconf20160319-15772-1ebrvv4.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20160319-15772-w2a42j
